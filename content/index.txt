@@ -1,0 +1,18 @@
+Web page 
+element + element +...... + element 
+<tag>   content </tag>
+start tag <tag>  information end tag (</>)
+
+ឈ្មោះ
+*សម្គាល់
+​-nested element (ធាតុក្នុងធាតុ or មេធាតុកូនធាតុ)
+-normal element (<tag>content <tag>)
+-emtpy element (ធាតុដែលមិន​មាន​ខ្លឹមសារត្រូវសរសេរ <tag>)
+  Example : 
+  <hr> គូសបន្ទាត់កាត់ទទឹថវេបផេក Horizontal Rule 
+  <br> ចុះបន្ទាត់​ Line breake 
+  <meta> ទិន្នន័យអំពីវេបផេក
+-abttribute 
+<tag abttributename = 'value'>
+abttribute is for infentify of tag  
+-entity Reference (សរសេរអក្សរឬសញ្ញាមិនអាចបញ្ចូលតាមkeyboard) &  ឈ្មោះសម្គាល់ឬលេខសម្គាល់; & copy 
