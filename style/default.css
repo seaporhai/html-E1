@@ -1,0 +1,24 @@
+/*កំណត់ពុម្ពអក្សរសម្រាប់វេបផេកឫវេបសាយគឺជ្រេីសbodyមកកំណត់*/
+
+/* external style   */
+
+body {
+  font-family: "Khmer OS Siemreap";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Khmer OS Moul Light";
+}
+/*this is the group selector */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: dodgerblue;
+}
