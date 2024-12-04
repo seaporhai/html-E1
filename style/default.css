@@ -15,10 +15,54 @@ h6 {
 }
 /*this is the group selector */
 a {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 
 a:hover {
-  color: dodgerblue;
+  color: red;
 }
+
+.rupp {
+  width: 750px;
+  height: 390px;
+  padding: 8px;
+  border: 10px solid gray;
+}
+
+/* General Reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: linear-gradient(90deg, #4caf50, #2196f3);
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  background-color: linear-gradient(90deg, #4caf50, #2196f3);
+  padding: 10px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  background-color: red;
+  color: #000;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+} */
