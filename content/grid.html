@@ -5,30 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid</title>
     <style>
-      a {
-        background-color: aqua;
-        border-radius: 8px;
-        padding: 4px 8px;
+      #header {
+        background: greenyellow;
+      }
+      #left,
+      #right {
+        background: yellow;
+      }
+      #main {
+        background: pink;
+      }
+      #container {
+        display: grid;
+      }
+      #footer {
+        background: violet;
       }
     </style>
   </head>
   <body>
     <h1>Grid Layout</h1>
-    <nav id="one">
-      <a href="">Link one</a>
-      <a href="">Link two</a>
-      <a href="">Link three</a>
-      <a href="">Link four</a>
-      <a href="">Link five</a>
-    </nav>
-    <hr />
-    <nav id="two" style="display: grid">
-      <a href="">Link one</a>
-      <a href="">Link two</a>
-      <a href="">Link three</a>
-      <a href="">Link four</a>
-      <a href="">Link five</a>
-    </nav>
-    <hr />
+    <section>
+      <header id="header">
+        <p>Header</p>
+      </header>
+      <aside id="left">
+        <p>Left</p>
+      </aside>
+      <main id="main">
+        <p>main</p>
+      </main>
+      <aside id="right">
+        <p>Right</p>
+      </aside>
+      <footer id="footer">
+        <p>footer</p>
+      </footer>
+    </section>
   </body>
 </html>
